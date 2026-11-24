@@ -1,5 +1,6 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+const age: number = 28;
+console.log(age);
+
 let team = {
     name: "Warriors",
     players: ["Stephen Curry", "Klay Thompson", "Draymond Green"],
@@ -7,6 +8,6 @@ let team = {
     championships: 6,
     isActive: true
 };
+
 team.name = "Golden State Warriors";
 console.log(`Team Name: ${team.name}`);
-//# sourceMappingURL=index.js.map
